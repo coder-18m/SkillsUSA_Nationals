@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sofia Sans', sans-serif;
+
+}
+.member a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    width: 100px;
+}
+.hr-nav{
+    margin-top: 10px;
+    height: 2px;
+    background-color: black;;
+}
+nav{
+    margin-top: 0;
+}
+.navbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.navbox2{
+    display: none;
+}
+.menu{
+    display: flex;
+
+}
+.menu2{
+    display: none;
+}
+.member{
+    font-size: 14px;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #789346;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+}
+.menuul a{
+    text-decoration: none;
+    color: black;
+}
+.menuul a:hover{
+    text-decoration: underline;
+}
+.member:hover{
+    
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menuul{
+    display: flex;
+
+}
+.menu li{
+    margin-right: 20px;
+    list-style-type: none;
+}
+.background{
+    background-image: url(Imgs/forest.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    background-size: cover;
+  background-position: center;
+
+}
+.planet{
+    background-color: white;
+    width: 100%;
+    
+    
+}
+.wild-h1{
+    padding-top: 10px;
+}
+.planet li{
+    width: 90%;
+    list-style-type: disc;
+
+}
+.planet ul{
+    margin-left: 30px;
+    
+}
+.more{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.fax{
+    margin-top: 30px;
+}
+.fax1, .fax2, .fax3 {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    margin-bottom: 16px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.fax1 h1, .fax2 h1, .fax3 ul li{
+    font-size: 20px;
+}
+.fax3 ul li{
+    list-style-type: none;
+}
+.memberh1 a {
+    color: white;
+    text-decoration: none;
+    background-color: #789346;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+}
+.memberh1{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+
+    
+}
+.mining{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.mining-div{
+    text-align: center;
+    padding: 20px;
+}
+.mining-div p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.mining-hr{
+    height: 3px;
+    background-color: black;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+.mining-list{
+    text-align: center;
+}
+.mining-list li{
+    margin-bottom: 20px;
+}
+.footer-logo{
+    width: 140px;
+}
+footer{
+    
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+    float: left;
+   width: 100%;
+}
+.footer-web{
+    display: inline-block;
+    margin-left: 10px;
+}
+footer{
+    
+
+}
+.desk-big-mine{
+    display: none;
+}
+.desk-big-mine2{
+    display: none;
+}
+.member2{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .planet{
+        padding: 10px;
+    }
+    .member2:hover{
+       
+    }
+    .hr-nav{
+        display: none;
+    }
+    .navbox2{
+        display: flex;
+    }
+    .menu2{
+        display: flex;
+        align-items: center;
+    }
+    .navbox, .menu{
+        display: none;
+    }
+    .menuul2{
+        display: flex;
+    }
+    .desk-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .menuul2 li{
+        margin-left: 20px;
+        list-style-type: none;
+    }
+    .menuul2 a{
+        text-decoration: none;
+        color: black;
+    }
+    .menuul2 a:hover{
+        text-decoration: underline;
+    }
+    .member2{
+        display: flex;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        background-color: #789346;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        
+    }
+    .member2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .planet{
+        width: 30%;
+        margin-left: 20px;
+        position: relative;
+        top: 100px;
+        opacity: 70%;
+        border-radius: 10px;
+    }
+    .background{
+        padding-bottom: 460px;
+    }
+    .fax{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .fax1, .fax2, .fax3{
+        width: 200px;
+        margin: 0px;
+    }
+    .memberh1{
+       
+    }
+    .big-mining-div{
+        display: none;
+    }
+    .desk-big-mine{
+        display: flex;
+        
+    }
+    .desk-big-mine2{
+        margin-top: 40px;
+        display: flex;
+    }
+    .flooding{
+        width: 310px;
+    }
+    .flooding-ul li{
+        list-style-type: none;
+        margin-top: 10px;
+    }
+    .flooding-ul{
+        margin-top: 20px;
+    }
+    .flooding-p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mining-container{
+        padding-left: 30px;
+    }
+    
+}
+
+@media (min-width: 900px) {
+    .flooding{
+        width: 500px;
+        border-radius: 20px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+    .desk-big-mine, .desk-big-mine2 {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    
+}
